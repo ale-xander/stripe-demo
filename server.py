@@ -2,8 +2,6 @@ import stripe
 import json
 from flask import Flask, render_template, jsonify, request, logging
 
-# from dotenv import load_dotenv, find_dotenv
-# load_dotenv(find_dotenv())
 app = Flask(__name__)
 stripe.api_key = 'sk_test_vO7qaz9UCmO38BXJI1YO6mdF00HTTSrn1R'
 
