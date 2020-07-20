@@ -6,7 +6,7 @@ This is a simple e-commerce web app using Stripe for checkout.  To run the app l
 
 * pip3 install -r requirements.txt
 
-* export FLASK_APP=server.py
+* export FLASK_APP=app.py
 
 * flask run
 
